@@ -13,7 +13,7 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
 @media(max-width:600px){.site-header nav{display:block;text-align:left;margin-top:.5rem;float:none}}
 /* Resize logo inside the header */
 .site-header img {
-    max-width: 180px;
+    max-width: 150px;
     height: auto;
     display: block;
     margin: 20px auto;
