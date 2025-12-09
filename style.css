@@ -11,3 +11,10 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
 .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;padding-bottom:2rem}
 .site-footer{background:#fafafa;padding:1rem 0;border-top:1px solid #eee;text-align:center;font-size:.9rem}
 @media(max-width:600px){.site-header nav{display:block;text-align:left;margin-top:.5rem;float:none}}
+/* Resize logo inside the header */
+.site-header img {
+    max-width: 180px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
